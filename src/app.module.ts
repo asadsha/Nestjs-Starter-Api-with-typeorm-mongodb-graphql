@@ -10,7 +10,7 @@ import { Student } from './student/student.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mongodb',
-      url: 'mongodb+srv://nest-gql:U7BqTpzSNIjAGoPo@cluster0.98dgb.mongodb.net/nest-gql?retryWrites=true&w=majority',
+      url: '', // mongodb uri
       synchronize: true,
       useUnifiedTopology: true,
       entities: [Lesson, Student]
